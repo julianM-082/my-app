@@ -9,8 +9,10 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
     <>
-        <Greeting/>
-        <UserCard/> 
-        <Product/>
+        <Greeting title ="Mundo" name = "Julian"/>
+        <Greeting title = "React" name = "Juan"/>
+        <Greeting title = "JavaScript" name = "Carlos"/>
+        <Greeting title = "Julian"/>
+
     </>
 );
