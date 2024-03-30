@@ -11,6 +11,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
     <>
-        <Task ready= {false} />
+        <Task ready= {true} />
     </>
 );
