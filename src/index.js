@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+
+// ------COMPONENTES------
 import { Greeting, UserCard } from "./Greeting";
 import Product, { NavBar } from "./Product";
 import { Button } from "./Button";
@@ -9,6 +11,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
     <>
-        <Task/>
+        <Task ready= {false} />
     </>
 );
