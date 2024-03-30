@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 export function Button({text}) {
-    return <button>
+    return <button onClick={()=>{console.log("hola")}}>
         {text}
     </button>
 }
